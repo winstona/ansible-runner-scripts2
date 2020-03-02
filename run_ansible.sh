@@ -2,6 +2,8 @@
 
 set -euo pipefail # bash strict mode
 
+set -x
+
 INOPTS=("$@")
 
 if [[ ${#INOPTS[@]} -eq 0 ]]; then
