@@ -255,7 +255,7 @@ pipenv_init() {
       fi
   fi
 
-
+  pipenv --python $(which python3)
   pipenv sync
 }
 
